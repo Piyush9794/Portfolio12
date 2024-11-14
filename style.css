@@ -165,7 +165,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("images/ass.png") no-repeat center;
+    background: url("images/annie-spratt-X4l3CjcDvic-unsplash.jpg") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -224,7 +224,8 @@ section .title::after{
     height: 400px;
     width: 400px;
     object-fit: cover;
-    border-radius: 6px;
+    border-radius: 600px;
+    box-shadow: -10px 10px 10px 8px #dc143c;
 }
 .about .about-content .right{
     width: 55%;
@@ -678,3 +679,89 @@ footer span a:hover{
         line-height: 38px;
     }
 }
+.cir1 {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.2);
+    right: 15%;
+    animation: cir 3s infinite linear;
+}
+.cir2 {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: white;
+    right: 30%;
+    animation: cir 3s infinite linear;
+}
+.cir3 {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: lightcoral;
+    right: 45%;
+    animation: cir 3s infinite linear;
+}
+.cir4 {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: lightblue;
+    right: 60%;
+    animation: cir 5s infinite linear;
+}
+.cir5 {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    position: absolute;
+    background:lightgreen;
+    right: 75%;
+    animation: cir 2s infinite linear;
+}
+
+.cir6 {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.2);
+    right: 80%;
+    animation: cir 8s infinite linear;
+}
+
+.cir7 {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.8);
+    right: 90%;
+    animation: cir 4s infinite linear;
+}
+
+.cir8 {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    animation: cir 2s infinite alternate;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.6);
+    right: 99%;
+}
+@keyframes cir {
+    from {
+        top: 0%;
+    }
+
+    to {
+        top: 90%;
+    }
+
+}
+ 
